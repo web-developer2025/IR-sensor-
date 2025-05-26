@@ -1,0 +1,41 @@
+define ir sensor = 2; // IR sensor pin
+#define buzzer = 3; // Buzzer pin
+#define relay=4;//for water pump
+#define led=5;//led alert 
+void setup() 
+{
+  pinMode(2, INPUT);
+  pinMode(3, OUTPUT);
+  PinMode(4, OUTPUT);
+  PinMode (5, OUTPUT);
+}
+
+void loop() 
+{
+  if (digital Write(2)== HIGH) // ir sensor is detected 
+{
+   digitalWrite(3, HIGH); //  buzzer on
+   delay(5000); // Buzzer on for 5 second
+ digitalWrite(4,HIGH);// relay should on
+digitalWrite(5,HIGH);//led alert 
+}define ir sensor = 2; // IR sensor pin
+#define buzzer = 3; // Buzzer pin
+#define relay=4;//for water pump
+#define led=5;//led alert 
+void setup() 
+{
+  pinMode(2, INPUT);
+  pinMode(3, OUTPUT);
+  PinMode(4, OUTPUT);
+  PinMode (5, OUTPUT);
+}
+
+void loop() 
+{
+  if (digital Write(2)== HIGH) // ir sensor is detected 
+{
+   digitalWrite(3, HIGH); //  buzzer on
+   delay(5000); // Buzzer on for 5 second
+ digitalWrite(4,HIGH);// relay should on
+digitalWrite(5,HIGH);//led alert 
+}
